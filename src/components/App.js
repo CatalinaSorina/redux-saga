@@ -1,8 +1,15 @@
 import React from "react";
+import Button from "../containers/Button";
+import NewsItem from "../containers/NewsItem";
+import Loading from "../containers/Loading";
 import "./App.css";
 
-function App() {
-  return <div className="App"></div>;
-}
+let App = () => (
+  <div>
+    <Button />
+    <Loading />
+    <NewsItem />
+  </div>
+);
 
 export default App;
